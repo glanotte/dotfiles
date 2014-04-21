@@ -116,7 +116,6 @@ set winheight=5
 set winminheight=5
 set winheight=999
 
-
 " CtrlP configuration, heavily inspired by Gary Bernhardt's Command-T config
 let g:ctrlp_working_path_mode = 'r'
 map <leader>gv :CtrlPClearCache<cr>:CtrlP app/views<cr>
@@ -157,6 +156,11 @@ autocmd FileType ruby set commentstring=#\ %s
 autocmd FileType python set commentstring=#\ %s
 autocmd FileType yaml set commentstring=#\ %s
 autocmd FileType c set commentstring=//\ %s
+
+" tab completion
+imap <Tab> <C-P>
+set complete=.,b,u,]
+set wim=longest,list
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Moves a variable declaration to an rspec let comment (Thanks Gary Bernhardt)

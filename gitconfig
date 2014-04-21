@@ -1,0 +1,53 @@
+[include]
+  path = ~/.gitconfiglocal
+  path = ~/.gitconfigglobal
+
+[alias]
+  co = checkout
+  st = status
+  ci = commit
+  br = branch
+  co = checkout
+  df = diff
+  lg = log -p
+  who = shortlog -s --
+  dc = diff --cached
+  amend = commit --amend --reset-author
+  aa = add --all
+  head = !git l -1
+  h = !git head
+  r = !git --no-pager l -20
+  ra = !git r --all
+  ff = merge --ff-only
+  pullff = pull --ff-only
+  l = log --graph --abbrev-commit --date=relative
+  la = !git l --all
+  fa = fetch --all
+  pom = push origin master
+
+[format]
+  pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
+
+[merge]
+  tool = vimdiff
+
+[apply]
+  whitespace = nowarn
+
+[color]
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = auto
+
+[core]
+  excludesfile = ~/.gitignore
+
+[diff]
+  tool = vimdiff
+
+[github]
+  user = glanotte
+
+[push]
+  default = matching

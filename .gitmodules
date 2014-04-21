@@ -1,0 +1,69 @@
+[submodule "vim/bundle/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
+[submodule "vim/bundle/vim-fugitive"]
+	path = vim/bundle/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vim/bundle/vim-haml"]
+	path = vim/bundle/vim-haml
+	url = https://github.com/tpope/vim-haml.git
+[submodule "vim/bundle/vim-cucumber"]
+	path = vim/bundle/vim-cucumber
+	url = https://github.com/tpope/vim-cucumber.git
+[submodule "vim/bundle/vim-coffee-script"]
+	path = vim/bundle/vim-coffee-script
+	url = https://github.com/kchmck/vim-coffee-script.git
+[submodule "vim/bundle/vim-ruby"]
+	path = vim/bundle/vim-ruby
+	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "vim/bundle/vim-unimpaired"]
+	path = vim/bundle/vim-unimpaired
+	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "vim/bundle/vim-endwise"]
+	path = vim/bundle/vim-endwise
+	url = https://github.com/tpope/vim-endwise.git
+[submodule "vim/bundle/vim-rails"]
+	path = vim/bundle/vim-rails
+	url = https://github.com/tpope/vim-rails.git
+[submodule "vim/bundle/a.vim"]
+	path = vim/bundle/a.vim
+	url = https://github.com/vim-scripts/a.vim.git
+[submodule "vim/bundle/vim-rvm"]
+	path = vim/bundle/vim-rvm
+	url = https://github.com/tpope/vim-rvm.git
+[submodule "vim/bundle/vim-python"]
+	path = vim/bundle/vim-python
+	url = https://github.com/vim-scripts/python.vim--Vasiliev.git
+[submodule "vim/bundle/vim-commentary"]
+	path = vim/bundle/vim-commentary
+	url = https://github.com/tpope/vim-commentary.git
+[submodule "vim/bundle/vim-markdown"]
+	path = vim/bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown
+[submodule "vim/bundle/vim-ragtag"]
+	path = vim/bundle/vim-ragtag
+	url = https://github.com/tpope/vim-ragtag.git
+[submodule "vim/bundle/vim-ctrlp"]
+	path = vim/bundle/vim-ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
+[submodule "vim/bundle/go.vim"]
+	path = vim/bundle/go.vim
+	url = https://github.com/fsouza/go.vim.git
+[submodule "vim/bundle/vim-elixir"]
+	path = vim/bundle/vim-elixir
+	url = git://github.com/elixir-lang/vim-elixir.git
+[submodule "vim/bundle/vim-javascript-syntax"]
+	path = vim/bundle/vim-javascript-syntax
+	url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule "vim/bundle/spacejam"]
+	path = vim/bundle/spacejam
+	url = https://github.com/rondale-sc/vim-spacejam
+[submodule "vim/bundle/vim-jasmine"]
+	path = vim/bundle/vim-jasmine
+	url = https://github.com/glanotte/vim-jasmine.git
+[submodule "vim/bundle/vim-jade"]
+	path = vim/bundle/vim-jade
+	url = https://github.com/digitaltoad/vim-jade.git
+[submodule "vim/bundle/vim-handlebars"]
+	path = vim/bundle/vim-handlebars
+	url = https://github.com/nono/vim-handlebars.git

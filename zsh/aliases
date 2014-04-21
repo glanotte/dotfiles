@@ -1,0 +1,58 @@
+# cd
+alias ..='cd ..'
+
+# ls
+alias ls="ls -F"
+alias l="ls -lAh"
+alias ll="ls -l"
+alias la='ls -A'
+
+#vi
+
+alias vi='vim'
+alias evi='vim -u ~/.essential.vim'
+
+# git
+alias gd='git diff'
+alias gci='git commit'
+alias gca='git commit -a'
+alias gco='git checkout'
+alias gb='git branch'
+alias gba='git branch -a'
+alias gs='git status'
+alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
+
+# Rails goodies
+# These should work on rails 2.x - 4.x
+function _rails_command () {
+  if [ -e "script/server" ]; then
+ruby script/$@
+  elif [ -e "script/rails" ]; then
+ruby script/rails $@
+  else
+rails $@
+  fi
+}
+
+alias sc='_rails_command console'
+alias rd='_rails_command destroy'
+alias rdb='_rails_command dbconsole'
+alias rdbm='rake db:migrate db:test:clone'
+alias migrate='rake db:migrate db:test:clone'
+alias rg='_rails_command generate'
+alias rp='_rails_command plugin'
+alias ss='_rails_command server'
+alias devlog='tail -f log/development.log'
+
+# commands starting with % for pasting from web
+alias %=' '
+
+#tmux
+alias tmux="TERM=screen-256color-bce tmux"
+
+#bundler
+alias be="bundle exec"
+alias bi="bundle install"
+alias bu="bundle update"
+alias bo="bundle outdated"
+

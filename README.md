@@ -8,9 +8,9 @@ Thanks!
 
 I have run out of people to thank for this, but here is a non-exaustive list:
 
-Ryan Bates - The initial base project, installation and many of the aliases
-Robby Russel - While I don't use oh-my-zsh, I have taken many many things from there
-Gary Bernhardt - Many of my hacks where inspired from his screencasts
+* Ryan Bates - The initial base project, installation and many of the aliases
+* Robby Russel - While I don't use oh-my-zsh, I have taken many many things from there
+* Gary Bernhardt - Many of my hacks where inspired from his screencasts
 
 
 Installation

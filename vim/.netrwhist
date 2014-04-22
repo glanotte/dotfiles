@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/Users/Geoff/code/unity/source/javascripts/lib'
-let g:netrw_dirhist_2='/Users/Geoff/code/fixit-website/db/seeds'
-let g:netrw_dirhist_3='/Users/Geoff/code/unity/spec/javascripts/views'
-let g:netrw_dirhist_4='/Users/Geoff/code/unity/source/javascripts/layoutManager'
-let g:netrw_dirhist_5='/Users/Geoff/code/unity/source/javascripts/layoutManager/collections'
-let g:netrw_dirhist_6='/Users/Geoff/dotfiles.new/zsh'
-let g:netrw_dirhist_7='/Users/Geoff/dotfiles.new/zsh/functions'

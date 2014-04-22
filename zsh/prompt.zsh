@@ -15,7 +15,7 @@ function pair_info {
 function git_prompt_info {
   local ref=$(git symbolic-ref HEAD 2> /dev/null)
   if [[ -n $ref ]]; then
-    echo "%{$reset_color%}/%{$fg[blue]%}${ref#refs/heads/}"
+    echo "%{$reset_color%}/${PR_BLUE}${ref#refs/heads/}"
   fi
 }
 
@@ -33,16 +33,16 @@ function git_status {
 
   if [[ -f .git/MERGE_HEAD ]]; then
     if [[ ${gitst} =~ "unmerged" ]]; then
-      gitstatus=" %{$fg[red]%}unmerged%{$reset_color%}"
+      gitstatus=" ${PR_RED}unmerged%{$reset_color%}"
     else
-      gitstatus=" %{$fg[green]%}merged%{$reset_color%}"
+      gitstatus=" ${PR_GREEN}merged%{$reset_color%}"
     fi
   elif [[ ${gitst} =~ "Changes to be committed" ]]; then
-    gitstatus=" %{$fg[blue]%}!%{$reset_color%}"
+    gitstatus=" ${PR_BLUE}!%{$reset_color%}"
   elif [[ ${gitst} =~ "use \"git add" ]]; then
-    gitstatus=" %{$fg[red]%}!%{$reset_color%}"
+    gitstatus=" ${PR_RED}!%{$reset_color%}"
   elif [[ -n `git checkout HEAD 2> /dev/null | grep ahead` ]]; then
-    gitstatus=" %{$fg[yellow]%}*%{$reset_color%}"
+    gitstatus=" ${PR_YELLOW}*%{$reset_color%}"
   else
     gitstatus=''
   fi

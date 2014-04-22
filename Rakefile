@@ -29,9 +29,20 @@ task :install do
   end
 end
 
-desc "updates submodules"
-task :update do
-  `git submodule foreach git pull origin master`
+namespace :vim do
+  desc "updates submodules"
+  task :update do
+    system "git submodule foreach git pull origin master"
+  end
+
+  desc "install submodule"
+  task :install do
+    repo_path = ENV['REPO']
+    name = repo_path.split(/\//).last
+    name = name.sub(/\.git$/, '')
+    puts "adding submodule #{name} from #{repo_path}"
+    system "git submodule add #{repo_path} vim/bundle/#{name}"
+  end
 end
 
 def replace_file(file)

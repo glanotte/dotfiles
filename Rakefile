@@ -5,7 +5,7 @@ task :install do
   skip_files = %w[Rakefile README.md LICENSE Brewfile essential.vim]
   replace_all = false
   Dir['*'].each do |file|
-    next if .include? file
+    next if skip_files.include? file
     if File.exist?(File.join(ENV['HOME'], ".#{file}"))
       if replace_all
         replace_file(file)
@@ -27,6 +27,11 @@ task :install do
       link_file(file)
     end
   end
+end
+
+desc "updates submodules"
+task :update do
+  `git submodule foreach git pull origin master`
 end
 
 def replace_file(file)

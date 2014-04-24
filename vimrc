@@ -157,8 +157,7 @@ autocmd FileType python set commentstring=#\ %s
 autocmd FileType yaml set commentstring=#\ %s
 autocmd FileType c set commentstring=//\ %s
 
-" tab completion
-imap <Tab> <C-P>
+" auto-completion settings
 set complete=.,b,u,]
 set wim=longest,list
 

@@ -51,7 +51,7 @@
 	url = https://github.com/fsouza/go.vim.git
 [submodule "vim/bundle/vim-elixir"]
 	path = vim/bundle/vim-elixir
-	url = git://github.com/elixir-lang/vim-elixir.git
+	url = https://github.com/elixir-lang/vim-elixir.git
 [submodule "vim/bundle/vim-javascript-syntax"]
 	path = vim/bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax.git

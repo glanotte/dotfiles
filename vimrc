@@ -36,10 +36,16 @@ colorscheme geoff_gui
 " Set the title string to display the full path
 set title
 set titlestring=VIM:\ %-25.55F\ %a%r%m titlelen=70
+
 " show a dot for trailing whitespace
 set listchars=tab:▸\ ,trail:·
 set list
 highlight ExtraWhitespace ctermbg=darkred guibg=#382424
+
+" hightlight anything that goes longer than 80 chars
+:au BufWinEnter * let w:m1=matchadd('WarnMsg', '\%<81v.\%>77v', -1)
+:au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>80v.\+', -1)
+
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 " the above flashes annoyingly while typing, be calmer in insert mode

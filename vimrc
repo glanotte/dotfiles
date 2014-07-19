@@ -125,7 +125,7 @@ set winheight=999
 " CtrlP configuration, heavily inspired by Gary Bernhardt's Command-T config
 let g:ctrlp_working_path_mode = 'r'
 map <leader>gv :CtrlPClearCache<cr>:CtrlP app/views<cr>
-map <leader>gc :CtrlPClearCache<cr>:CtrlP app/views<cr>
+map <leader>gc :CtrlPClearCache<cr>:CtrlP app/controllers<cr>
 map <leader>gm :CtrlPClearCache<cr>:CtrlP app/models<cr>
 map <leader>gh :CtrlPClearCache<cr>:CtrlP app/helpers<cr>
 map <leader>ga :CtrlPClearCache<cr>:CtrlP app/assets<cr>

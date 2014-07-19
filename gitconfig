@@ -12,7 +12,7 @@
   lg = log -p
   who = shortlog -s --
   dc = diff --cached
-  amend = commit --amend --reset-author
+  amend = commit --amend
   aa = add --all
   head = !git l -1
   h = !git head

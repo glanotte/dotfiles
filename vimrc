@@ -17,6 +17,10 @@ filetype plugin indent on
 filetype on  " Automatically detect file types.
 set nocompatible  " We don't want vi compatibility.
 
+" try to speed up scrolling for large files
+set ttyfast
+set lazyredraw
+
 " Store temporary files in a central spot, thanks to Gary Bernhardt
 set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp

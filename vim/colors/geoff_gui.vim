@@ -51,7 +51,8 @@ highlight CursorLine                guibg=#000000 ctermbg=233 cterm=NONE
 highlight Comment                   guifg=#BC9458 ctermfg=180 gui=italic
 highlight Constant                  guifg=#6D9CBE ctermfg=73
 highlight Define                    guifg=#CC7833 ctermfg=173
-highlight Error                     guifg=#FFC66D ctermfg=221 guibg=#990000 ctermbg=88
+highlight Error                     guifg=#000000 ctermfg=221 guibg=#990000 ctermbg=88
+highlight ErrorMsg                  guifg=#000000 ctermfg=221 guibg=#990000 ctermbg=88
 highlight Function                  guifg=#FFC66D ctermfg=221 gui=NONE cterm=NONE
 highlight Identifier                guifg=#6D9CBE ctermfg=73 gui=NONE cterm=NONE
 highlight Include                   guifg=#CC7833 ctermfg=173 gui=NONE cterm=NONE

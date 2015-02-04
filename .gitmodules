@@ -76,9 +76,6 @@
 [submodule "vim/bundle/supertab"]
 	path = vim/bundle/supertab
 	url = https://github.com/ervandew/supertab.git
-[submodule "vim/bundle/vim-rspec"]
-	path = vim/bundle/vim-rspec
-	url = https://github.com/Keithbsmiley/rspec.vim.git
 [submodule "vim/bundle/vim-pandoc"]
 	path = vim/bundle/vim-pandoc
 	url = git@github.com:vim-pandoc/vim-pandoc

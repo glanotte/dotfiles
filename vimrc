@@ -1,3 +1,5 @@
+set shell=/bin/sh
+
 " configure pathogen
 call pathogen#infect()
 
@@ -170,6 +172,21 @@ autocmd FileType c set commentstring=//\ %s
 " auto-completion settings
 set complete=.,b,u,]
 set wim=longest,list
+
+" vim-rspec configuration
+map <Leader>t :call RunCurrentSpecFile()<CR>
+map <Leader>s :call RunNearestSpec()<CR>
+map <Leader>l :call RunLastSpec()<CR>
+map <Leader>a :call RunAllSpecs()<CR>
+map <Leader>z :call RunSpecDirectory()<CR>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Run the current specs for a directory
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+function! RunSpecDirectory()
+    let s:last_spec_location = "%:h"
+    call RunSpecs(s:last_spec_location)
+endfunction
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Moves a variable declaration to an rspec let comment (Thanks Gary Bernhardt)

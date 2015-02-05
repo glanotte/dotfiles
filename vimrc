@@ -174,11 +174,11 @@ set complete=.,b,u,]
 set wim=longest,list
 
 " vim-rspec configuration
-map <Leader>t :call RunCurrentSpecFile()<CR>
-map <Leader>s :call RunNearestSpec()<CR>
-map <Leader>l :call RunLastSpec()<CR>
-map <Leader>a :call RunAllSpecs()<CR>
-map <Leader>z :call RunSpecDirectory()<CR>
+map <leader>t :call RunCurrentSpecFile()<CR>
+map <leader>d :call RunNearestSpec()<CR>
+map <leader>l :call RunLastSpec()<CR>
+map <leader>a :call RunAllSpecs()<CR>
+map <leader>z :call RunSpecDirectory()<CR>
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Run the current specs for a directory

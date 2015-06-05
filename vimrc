@@ -174,6 +174,11 @@ set complete=.,b,u,]
 set wim=longest,list
 
 " vim-rspec configuration
+let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
+
+map <Leader>X :let g:rspec_command = "!time bundle exec rspec {spec}"<CR>
+map <Leader>x :let g:rspec_command = "call Send_to_Tmux(\"bundle exec rspec {spec}\n\")"<CR>
+
 map <leader>t :call RunCurrentSpecFile()<CR>
 map <leader>d :call RunNearestSpec()<CR>
 map <leader>l :call RunLastSpec()<CR>

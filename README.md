@@ -6,7 +6,7 @@ These are config files to set up a system the way I like it. These are subject t
 Thanks!
 -------
 
-I have run out of people to thank for this, but here is a non-exaustive list:
+I have run out of people to thank for this, but here is a non-exhaustive list:
 
 * Ryan Bates - The initial base project, installation and many of the aliases
 * Robby Russel - While I don't use oh-my-zsh, I have taken many many things from there

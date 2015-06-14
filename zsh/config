@@ -6,7 +6,8 @@ export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='3;33'
 
 export EDITOR='/usr/bin/vim'
-export PATH="~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH:/usr/local/share/npm/bin"
+export GOPATH="$HOME/go"
+export PATH="~/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:$PATH:/usr/local/share/npm/bin:$GOPATH/bin"
 export MANPATH="/usr/local/man:/usr/local/mysql/man:$MANPATH"
 
 fpath=(~/.zsh/functions $fpath)

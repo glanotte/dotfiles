@@ -4,7 +4,10 @@ set shell=/bin/sh
 call pathogen#infect()
 
 "Set leader key
-let mapleader = ","
+let mapleader = " "
+
+"home row escape
+inoremap fd <ESC>
 
 " shortcuts to adding notes
 map <leader>nn :sp ~/Dropbox/notes/programming_notes.txt<cr>
@@ -19,6 +22,8 @@ filetype plugin indent on
 filetype on  " Automatically detect file types.
 set nocompatible  " We don't want vi compatibility.
 
+" set .pl files as prolog
+let g:filetype_pl="prolog"
 " try to speed up scrolling for large files
 set ttyfast
 set lazyredraw

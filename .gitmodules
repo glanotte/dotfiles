@@ -106,3 +106,9 @@
 [submodule "vim/bundle/vimerl"]
 	path = vim/bundle/vimerl
 	url = git@github.com:oscarh/vimerl.git
+[submodule "vim/bundle/vim-clojure"]
+	path = vim/bundle/vim-clojure
+	url = git@github.com:guns/vim-clojure-static.git
+[submodule "vim/bundle/rainbow-parentheses"]
+	path = vim/bundle/rainbow-parentheses
+	url = git@github.com:kien/rainbow_parentheses.vim.git

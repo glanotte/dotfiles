@@ -103,3 +103,6 @@
 [submodule "vim/bundle/vim-ferret"]
 	path = vim/bundle/vim-ferret
 	url = git@github.com:wincent/ferret.git
+[submodule "vim/bundle/vimerl"]
+	path = vim/bundle/vimerl
+	url = git@github.com:oscarh/vimerl.git

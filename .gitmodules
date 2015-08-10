@@ -100,3 +100,6 @@
 [submodule "vim/bundle/vim-scala"]
 	path = vim/bundle/vim-scala
 	url = git@github.com:derekwyatt/vim-scala.git
+[submodule "vim/bundle/vim-ferret"]
+	path = vim/bundle/vim-ferret
+	url = git@github.com:wincent/ferret.git

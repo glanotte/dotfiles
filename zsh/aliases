@@ -9,7 +9,7 @@ alias la='ls -A'
 
 #vi
 
-alias vi='vim'
+alias vi='nvim'
 alias evi='vim -u ~/.essential.vim'
 
 # git

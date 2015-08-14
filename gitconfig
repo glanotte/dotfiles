@@ -29,7 +29,7 @@
   pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%an>%Creset
 
 [merge]
-  tool = vimdiff
+  tool = nvimdiff
 
 [apply]
   whitespace = nowarn
@@ -42,9 +42,10 @@
 
 [core]
   excludesfile = ~/.gitignore
+  editor = /usr/local/bin/nvim
 
 [diff]
-  tool = vimdiff
+  tool = nvimdiff
 
 [github]
   user = glanotte

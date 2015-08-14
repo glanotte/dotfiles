@@ -112,3 +112,87 @@
 [submodule "vim/bundle/rainbow-parentheses"]
 	path = vim/bundle/rainbow-parentheses
 	url = git@github.com:kien/rainbow_parentheses.vim.git
+[submodule "nvim/bundle/vim-surround"]
+	path = nvim/bundle/vim-surround
+	url = git@github.com:tpope/vim-surround
+[submodule "nvim/bundle/vim-fugitive"]
+	path = nvim/bundle/vim-fugitive
+	url = git@github.com:tpope/vim-fugitive
+[submodule "nvim/bundle/vim-haml"]
+	path = nvim/bundle/vim-haml
+	url = git@github.com:tpope/vim-haml
+[submodule "nvim/bundle/vim-coffee-script"]
+	path = nvim/bundle/vim-coffee-script
+	url = git@github.com:kchmck/vim-coffee-script
+[submodule "nvim/bundle/vim-ruby"]
+	path = nvim/bundle/vim-ruby
+	url = git@github.com:vim-ruby/vim-ruby
+[submodule "nvim/bundle/vim-unimpaired"]
+	path = nvim/bundle/vim-unimpaired
+	url = git@github.com:tpope/vim-unimpaired
+[submodule "nvim/bundle/vim-endwise"]
+	path = nvim/bundle/vim-endwise
+	url = git@github.com:tpope/vim-endwise
+[submodule "nvim/bundle/vim-rails"]
+	path = nvim/bundle/vim-rails
+	url = git@github.com:tpope/vim-rails
+[submodule "nvim/bundle/a.vim"]
+	path = nvim/bundle/a.vim
+	url = git@github.com:vim-scripts/a.vim
+[submodule "nvim/bundle/vim-commentary"]
+	path = nvim/bundle/vim-commentary
+	url = git@github.com:tpope/vim-commentary
+[submodule "nvim/bundle/vim-markdown"]
+	path = nvim/bundle/vim-markdown
+	url = git@github.com:tpope/vim-markdown
+[submodule "nvim/bundle/vim-ragtag"]
+	path = nvim/bundle/vim-ragtag
+	url = git@github.com:tpope/vim-ragtag
+[submodule "nvim/bundle/ctrlp.vim"]
+	path = nvim/bundle/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim
+[submodule "nvim/bundle/go.vim"]
+	path = nvim/bundle/go.vim
+	url = git@github.com:fsouza/go.vim
+[submodule "nvim/bundle/vim-elixir"]
+	path = nvim/bundle/vim-elixir
+	url = git@github.com:elixir-lang/vim-elixir
+[submodule "nvim/bundle/vim-javascript-syntax"]
+	path = nvim/bundle/vim-javascript-syntax
+	url = git@github.com:jelera/vim-javascript-syntax
+[submodule "nvim/bundle/vim-spacejam"]
+	path = nvim/bundle/vim-spacejam
+	url = git@github.com:rondale-sc/vim-spacejam
+[submodule "nvim/bundle/vim-airline"]
+	path = nvim/bundle/vim-airline
+	url = git@github.com:bling/vim-airline
+[submodule "nvim/bundle/vim-eunuch"]
+	path = nvim/bundle/vim-eunuch
+	url = git@github.com:tpope/vim-eunuch
+[submodule "nvim/bundle/supertab"]
+	path = nvim/bundle/supertab
+	url = git@github.com:ervandew/supertab
+[submodule "nvim/bundle/vim-pandoc"]
+	path = nvim/bundle/vim-pandoc
+	url = git@github.com:vim-pandoc/vim-pandoc
+[submodule "nvim/bundle/vim-pandoc-syntax"]
+	path = nvim/bundle/vim-pandoc-syntax
+	url = git@github.com:vim-pandoc/vim-pandoc-syntax
+[submodule "nvim/bundle/vim-rspec"]
+	path = nvim/bundle/vim-rspec
+	url = git@github.com:glanotte/vim-rspec
+[submodule "nvim/bundle/tslime.vim"]
+	path = nvim/bundle/tslime.vim
+	url = git@github.com:jgdavey/tslime.vim
+[submodule "nvim/bundle/vim-go"]
+	path = nvim/bundle/vim-go
+	url = git@github.com:fatih/vim-go
+[submodule "nvim/bundle/ferret"]
+	path = nvim/bundle/ferret
+	url = git@github.com:wincent/ferret
+[submodule "nvim/bundle/vim-clojure-static"]
+	path = nvim/bundle/vim-clojure-static
+	url = git@github.com:guns/vim-clojure-static
+[submodule "nvim/bundle/rainbow_parentheses.vim"]
+	path = nvim/bundle/rainbow_parentheses.vim
+	url = git@github.com:kien/rainbow_parentheses.vim

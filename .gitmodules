@@ -22,9 +22,6 @@
 [submodule "nvim/bundle/vim-rails"]
 	path = nvim/bundle/vim-rails
 	url = git@github.com:tpope/vim-rails
-[submodule "nvim/bundle/a.vim"]
-	path = nvim/bundle/a.vim
-	url = git@github.com:vim-scripts/a.vim
 [submodule "nvim/bundle/vim-commentary"]
 	path = nvim/bundle/vim-commentary
 	url = git@github.com:tpope/vim-commentary
@@ -58,12 +55,6 @@
 [submodule "nvim/bundle/supertab"]
 	path = nvim/bundle/supertab
 	url = git@github.com:ervandew/supertab
-[submodule "nvim/bundle/vim-pandoc"]
-	path = nvim/bundle/vim-pandoc
-	url = git@github.com:vim-pandoc/vim-pandoc
-[submodule "nvim/bundle/vim-pandoc-syntax"]
-	path = nvim/bundle/vim-pandoc-syntax
-	url = git@github.com:vim-pandoc/vim-pandoc-syntax
 [submodule "nvim/bundle/vim-rspec"]
 	path = nvim/bundle/vim-rspec
 	url = git@github.com:glanotte/vim-rspec
@@ -82,3 +73,6 @@
 [submodule "nvim/bundle/rainbow_parentheses.vim"]
 	path = nvim/bundle/rainbow_parentheses.vim
 	url = git@github.com:kien/rainbow_parentheses.vim
+[submodule "nvim/bundle/vim-haskell"]
+	path = nvim/bundle/vim-haskell
+	url = git@github.com:neovimhaskell/haskell-vim.git

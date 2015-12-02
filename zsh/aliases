@@ -56,3 +56,6 @@ alias bi="bundle install"
 alias bu="bundle update"
 alias bo="bundle outdated"
 
+# elixir/mix
+
+alias imix="iex -S mix"

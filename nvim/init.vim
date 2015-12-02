@@ -59,14 +59,14 @@ highlight ExtraWhitespace ctermbg=darkred guibg=#382424
 set colorcolumn=80
 :hi ColorColumn ctermbg=red guibg=red
 
-" Configure spacejam to delete whitespace
-let g:spacejam_filetypes = 'ruby,javascript,vim,perl,sass,scss,css,coffee,haml,elixir'
-
 autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
 autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 " the above flashes annoyingly while typing, be calmer in insert mode
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/
 autocmd InsertEnter * match ExtraWhitespace /\s\+\%#\@<!$/
+
+" Configure spacejam to delete whitespace
+let g:spacejam_filetypes = 'ruby,javascript,vim,perl,sass,scss,css,coffee,haml,elixir'
 
 " Change which file opens after executing :Rails command
 let g:rails_default_file='config/database.yml'

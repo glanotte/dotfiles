@@ -14,7 +14,7 @@ alias evi='vim -u ~/.essential.vim'
 
 # git
 alias gd='git diff'
-alias gci='git commit'
+alias gci='git commit -S'
 alias gca='git commit -a'
 alias gco='git checkout'
 alias gb='git branch'

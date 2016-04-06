@@ -5,14 +5,14 @@
 [alias]
   co = checkout
   st = status
-  ci = commit
+  ci = commit -S
   br = branch
   co = checkout
   df = diff
   lg = log -p
   who = shortlog -s --
   dc = diff --cached
-  amend = commit --amend
+  amend = commit --amend -S
   aa = add --all
   head = !git l -1
   h = !git head

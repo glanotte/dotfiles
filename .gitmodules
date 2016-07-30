@@ -76,3 +76,6 @@
 [submodule "nvim/bundle/vim-haskell"]
 	path = nvim/bundle/vim-haskell
 	url = git@github.com:neovimhaskell/haskell-vim.git
+[submodule "nvim/bundle/vim-test"]
+	path = nvim/bundle/vim-test
+	url = git@github.com:janko-m/vim-test.git

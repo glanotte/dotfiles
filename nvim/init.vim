@@ -183,18 +183,29 @@ autocmd FileType c set commentstring=//\ %s
 set complete=.,b,u,]
 set wim=longest,list
 
+" commenting out in favor of vim-test
 " vim-rspec configuration
-let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
+" let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
 
-map <Leader>X :let g:rspec_command = "!time bundle exec rspec {spec}"<CR>
-map <Leader>x :let g:rspec_command = "call Send_to_Tmux(\"bundle exec rspec {spec}\n\")"<CR>
-map <Leader>T :let g:rspec_command = "call Send_to_Tmux(\"bundle exec spec {spec}\n\")"<CR>
+" map <Leader>X :let g:rspec_command = "!time bundle exec rspec {spec}"<CR>
+" map <Leader>x :let g:rspec_command = "call Send_to_Tmux(\"bundle exec rspec {spec}\n\")"<CR>
+" map <Leader>T :let g:rspec_command = "call Send_to_Tmux(\"bundle exec spec {spec}\n\")"<CR>
 
-map <leader>t :call RunCurrentSpecFile()<CR>
-map <leader>d :call RunNearestSpec()<CR>
-map <leader>l :call RunLastSpec()<CR>
-map <leader>a :call RunAllSpecs()<CR>
-map <leader>z :call RunSpecDirectory()<CR>
+" map <leader>t :call RunCurrentSpecFile()<CR>
+" map <leader>d :call RunNearestSpec()<CR>
+" map <leader>l :call RunLastSpec()<CR>
+" map <leader>a :call RunAllSpecs()<CR>
+" map <leader>z :call RunSpecDirectory()<CR>
+
+" vim-test configuration
+let test#strategy = "neovim"
+
+nmap <silent> <leader>d :TestNearest<CR>
+nmap <silent> <leader>t :TestFile<CR>
+nmap <silent> <leader>a :TestSuite<CR>
+nmap <silent> <leader>l :TestLast<CR>
+nmap <silent> <leader>g :TestVisit<CR>
+
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Run the current specs for a directory

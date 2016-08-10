@@ -79,3 +79,6 @@
 [submodule "nvim/bundle/vim-test"]
 	path = nvim/bundle/vim-test
 	url = git@github.com:janko-m/vim-test.git
+[submodule "nvim/bundle/elm.vim"]
+	path = nvim/bundle/elm.vim
+	url = git@github.com:lambdatoast/elm.vim.git

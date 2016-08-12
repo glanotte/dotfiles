@@ -175,9 +175,16 @@ endif
 
 " Comments for vim-commentary
 autocmd FileType ruby set commentstring=#\ %s
+autocmd FileType elixir set commentstring=#\ %s
 autocmd FileType python set commentstring=#\ %s
 autocmd FileType yaml set commentstring=#\ %s
 autocmd FileType c set commentstring=//\ %s
+
+" Bring back my mappings
+xmap \\  <Plug>Commentary<CR>
+nmap \\  <CR><Plug>Commentary
+nmap \\\ <Plug>CommentaryLine<CR>
+nmap \\u <Plug>CommentaryUndo<CR>
 
 " auto-completion settings
 set complete=.,b,u,]

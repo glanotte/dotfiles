@@ -205,7 +205,10 @@ set wim=longest,list
 " map <leader>z :call RunSpecDirectory()<CR>
 
 " vim-test configuration
-let test#strategy = "neovim"
+map <Leader>T :let test#strategy = "neovim"<CR>
+map <Leader>R :let test#ruby#rspec#executable = "bundle exec spec"<CR>
+
+let test#strategy = "tslime"
 
 nmap <silent> <leader>d :TestNearest<CR>
 nmap <silent> <leader>t :TestFile<CR>
@@ -213,6 +216,10 @@ nmap <silent> <leader>a :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
 
+" tslime configuration
+
+let g:tslime_always_current_session = 1
+let g:tslime_always_current_window = 1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Run the current specs for a directory

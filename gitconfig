@@ -52,3 +52,5 @@
 
 [push]
   default = matching
+[commit]
+	gpgsign = true

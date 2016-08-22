@@ -49,15 +49,15 @@ set titlestring=VIM:\ %-25.55F\ %a%r%m titlelen=70
 " show a dot for trailing whitespace
 set listchars=tab:▸\ ,trail:·
 set list
-highlight ExtraWhitespace ctermbg=darkred guibg=#382424
+highlight ExtraWhitespace ctermbg=darkred ctermfg=white guibg=#592929
 
 " " hightlight anything that goes longer than 80 chars
 " :au BufWinEnter * let w:m1=matchadd('WarnMsg', '\%<81v.\%>77v', -1)
 " :au BufWinEnter * let w:m2=matchadd('ErrorMsg', '\%>81v.\+', -1)
 set colorcolumn=80
-:hi ColorColumn ctermbg=red guibg=red
+highlight ColorColumn ctermbg=darkgrey guibg=darkgrey
 
-autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red
+autocmd ColorScheme * highlight ExtraWhitespace ctermbg=red guibg=red ctermfg=white
 autocmd BufWinEnter * match ExtraWhitespace /\s\+$/
 " the above flashes annoyingly while typing, be calmer in insert mode
 autocmd InsertLeave * match ExtraWhitespace /\s\+$/

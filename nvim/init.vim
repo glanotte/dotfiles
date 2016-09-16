@@ -188,25 +188,15 @@ nmap \\u <Plug>CommentaryUndo<CR>
 set complete=.,b,u,]
 set wim=longest,list
 
-" commenting out in favor of vim-test
-" vim-rspec configuration
-" let g:rspec_command = 'call Send_to_Tmux("bundle exec rspec {spec}\n")'
 
-" map <Leader>X :let g:rspec_command = "!time bundle exec rspec {spec}"<CR>
-" map <Leader>x :let g:rspec_command = "call Send_to_Tmux(\"bundle exec rspec {spec}\n\")"<CR>
-" map <Leader>T :let g:rspec_command = "call Send_to_Tmux(\"bundle exec spec {spec}\n\")"<CR>
+" tslime configuration
 
-" map <leader>t :call RunCurrentSpecFile()<CR>
-" map <leader>d :call RunNearestSpec()<CR>
-" map <leader>l :call RunLastSpec()<CR>
-" map <leader>a :call RunAllSpecs()<CR>
-" map <leader>z :call RunSpecDirectory()<CR>
-
+let g:tslime_always_current_session = 1
+let g:tslime_always_current_window = 1
+"
 " vim-test configuration
-map <Leader>T :let test#strategy = "neovim"<CR>
-map <Leader>R :let test#ruby#rspec#executable = "bundle exec spec"<CR>
-
-let test#strategy = "tslime"
+map <Leader>T :call TestStrategyToggle()<cr>
+map <Leader>R :call TestToggleRspecCommand()<CR>
 
 nmap <silent> <leader>d :TestNearest<CR>
 nmap <silent> <leader>t :TestFile<CR>
@@ -214,11 +204,34 @@ nmap <silent> <leader>a :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
 
-" tslime configuration
+let test#strategy = "tslime"
 
-let g:tslime_always_current_session = 1
-let g:tslime_always_current_window = 1
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Toggle the test strategy
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+function! TestStrategyToggle()
+  if g:test#strategy == "neovim"
+    let g:test#strategy = "tslime"
+  else
+    let g:test#strategy = "neovim"
+  endif
+
+  echo g:test#strategy
+endfunction
+
+
+function! TestToggleRspecCommand()
+  if !exists("g:test#ruby#rspec#executable")
+    let g:test#ruby#rspec#executable = "bundle exec rspec"
+  elseif g:test#ruby#rspec#executable == "bundle exec spec"
+    let g:test#ruby#rspec#executable = "bundle exec rspec"
+  else
+    let g:test#ruby#rspec#executable = "bundle exec spec"
+  end
+
+  echo g:test#ruby#rspec#executable
+endfunction
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Run the current specs for a directory
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

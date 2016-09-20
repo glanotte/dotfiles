@@ -223,7 +223,7 @@ endfunction
 
 function! TestToggleRspecCommand()
   if !exists("g:test#ruby#rspec#executable")
-    let g:test#ruby#rspec#executable = "bundle exec rspec"
+    let g:test#ruby#rspec#executable = "bundle exec spec"
   elseif g:test#ruby#rspec#executable == "bundle exec spec"
     let g:test#ruby#rspec#executable = "bundle exec rspec"
   else

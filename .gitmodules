@@ -82,3 +82,9 @@
 [submodule "nvim/bundle/elm.vim"]
 	path = nvim/bundle/elm.vim
 	url = git@github.com:lambdatoast/elm.vim.git
+[submodule "nvim/bundle/applescript.vim"]
+	path = nvim/bundle/applescript.vim
+	url = git@github.com:vim-scripts/applescript.vim.git
+[submodule "nvim/bundle/rainbow_parenthesis.vim"]
+	path = nvim/bundle/rainbow_parenthesis.vim
+	url = git@github.com:kien/rainbow_parentheses.vim.git

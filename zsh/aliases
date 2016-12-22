@@ -59,3 +59,7 @@ alias bo="bundle outdated"
 # elixir/mix
 
 alias imix="iex -S mix"
+
+# sicp + racket + tmux + vim
+
+alias sicp="racket -i -p neil/sicp -l xrepl"

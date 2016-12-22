@@ -91,7 +91,7 @@ let Tlist_Use_Right_Window = 1
 set fdm=syntax
 set fdc=2
 " set the level high enough that nothing should be folded initially
-set fdl=10
+set fdl=1
 " Love the cursor line
 set cursorline
 "syntax for scss
@@ -193,7 +193,14 @@ set wim=longest,list
 
 let g:tslime_always_current_session = 1
 let g:tslime_always_current_window = 1
-"
+let g:tslime_ensure_trailing_newlines = 1
+
+vmap <leader>t <Plug>SendSelectionToTmux
+
+let g:tslime_normal_mapping = '<leader>t'
+let g:tslime_visual_mapping = '<leader>t'
+let g:tslime_vars_mapping = '<leader>T'
+
 " vim-test configuration
 map <Leader>T :call TestStrategyToggle()<cr>
 map <Leader>R :call TestToggleRspecCommand()<CR>
@@ -203,6 +210,15 @@ nmap <silent> <leader>t :TestFile<CR>
 nmap <silent> <leader>a :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Configure Rainbow Parenthesis
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 let test#strategy = "tslime"
 

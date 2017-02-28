@@ -28,15 +28,9 @@
 [submodule "nvim/bundle/vim-markdown"]
 	path = nvim/bundle/vim-markdown
 	url = git@github.com:tpope/vim-markdown
-[submodule "nvim/bundle/vim-ragtag"]
-	path = nvim/bundle/vim-ragtag
-	url = git@github.com:tpope/vim-ragtag
 [submodule "nvim/bundle/ctrlp.vim"]
 	path = nvim/bundle/ctrlp.vim
 	url = git@github.com:kien/ctrlp.vim
-[submodule "nvim/bundle/go.vim"]
-	path = nvim/bundle/go.vim
-	url = git@github.com:fsouza/go.vim
 [submodule "nvim/bundle/vim-elixir"]
 	path = nvim/bundle/vim-elixir
 	url = git@github.com:elixir-lang/vim-elixir
@@ -61,30 +55,12 @@
 [submodule "nvim/bundle/tslime.vim"]
 	path = nvim/bundle/tslime.vim
 	url = git@github.com:jgdavey/tslime.vim
-[submodule "nvim/bundle/vim-go"]
-	path = nvim/bundle/vim-go
-	url = git@github.com:fatih/vim-go
-[submodule "nvim/bundle/ferret"]
-	path = nvim/bundle/ferret
-	url = git@github.com:wincent/ferret
-[submodule "nvim/bundle/vim-clojure-static"]
-	path = nvim/bundle/vim-clojure-static
-	url = git@github.com:guns/vim-clojure-static
 [submodule "nvim/bundle/rainbow_parentheses.vim"]
 	path = nvim/bundle/rainbow_parentheses.vim
 	url = git@github.com:kien/rainbow_parentheses.vim
-[submodule "nvim/bundle/vim-haskell"]
-	path = nvim/bundle/vim-haskell
-	url = git@github.com:neovimhaskell/haskell-vim.git
 [submodule "nvim/bundle/vim-test"]
 	path = nvim/bundle/vim-test
 	url = git@github.com:janko-m/vim-test.git
-[submodule "nvim/bundle/elm.vim"]
-	path = nvim/bundle/elm.vim
-	url = git@github.com:lambdatoast/elm.vim.git
-[submodule "nvim/bundle/applescript.vim"]
-	path = nvim/bundle/applescript.vim
-	url = git@github.com:vim-scripts/applescript.vim.git
 [submodule "nvim/bundle/rainbow_parenthesis.vim"]
 	path = nvim/bundle/rainbow_parenthesis.vim
 	url = git@github.com:kien/rainbow_parentheses.vim.git

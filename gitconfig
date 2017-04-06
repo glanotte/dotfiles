@@ -3,6 +3,8 @@
   path = ~/.gitconfigglobal
 
 [alias]
+  prune = fetch --prune
+  undo = reset --soft HEAD^
   co = checkout
   st = status
   ci = commit -S
@@ -31,6 +33,9 @@
 [merge]
   tool = nvimdiff
 
+[status]
+  showUntrackedFiles = all
+
 [apply]
   whitespace = nowarn
 
@@ -52,5 +57,15 @@
 
 [push]
   default = matching
+
+[diff]
+  tool = icdiff
+
+[difftool]
+  prompt = false
+
+[difftool "icdiff"]
+  cmd = /usr/local/bin/icdiff --line-numbers $LOCAL $REMOTE
+
 [commit]
-	gpgsign = true
+  gpgsign = true

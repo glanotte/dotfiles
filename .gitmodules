@@ -67,3 +67,6 @@
 [submodule "nvim/bundle/deoplete.nvim"]
 	path = nvim/bundle/deoplete.nvim
 	url = git@github.com:Shougo/deoplete.nvim.git
+[submodule "nvim/bundle/deoplete-ruby"]
+	path = nvim/bundle/deoplete-ruby
+	url = git@github.com:fishbullet/deoplete-ruby.git

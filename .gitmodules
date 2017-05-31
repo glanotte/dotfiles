@@ -46,9 +46,6 @@
 [submodule "nvim/bundle/vim-eunuch"]
 	path = nvim/bundle/vim-eunuch
 	url = git@github.com:tpope/vim-eunuch
-[submodule "nvim/bundle/supertab"]
-	path = nvim/bundle/supertab
-	url = git@github.com:ervandew/supertab
 [submodule "nvim/bundle/vim-rspec"]
 	path = nvim/bundle/vim-rspec
 	url = git@github.com:glanotte/vim-rspec
@@ -64,3 +61,9 @@
 [submodule "nvim/bundle/rainbow_parenthesis.vim"]
 	path = nvim/bundle/rainbow_parenthesis.vim
 	url = git@github.com:kien/rainbow_parentheses.vim.git
+[submodule "nvim/bundle/ale"]
+	path = nvim/bundle/ale
+	url = git@github.com:w0rp/ale.git
+[submodule "nvim/bundle/deoplete.nvim"]
+	path = nvim/bundle/deoplete.nvim
+	url = git@github.com:Shougo/deoplete.nvim.git

@@ -188,6 +188,8 @@ nmap \\u <Plug>CommentaryUndo<CR>
 set complete=.,b,u,]
 set wim=longest,list
 
+" deoplete
+let g:deoplete#enable_at_startup = 1
 
 " tslime configuration
 
@@ -200,6 +202,11 @@ vmap <leader>t <Plug>SendSelectionToTmux
 let g:tslime_normal_mapping = '<leader>t'
 let g:tslime_visual_mapping = '<leader>t'
 let g:tslime_vars_mapping = '<leader>T'
+
+" rubocop config
+if filereadable("./bin/stubs/rubocop")
+  let g:ale_ruby_rubocop_executable="bin/stubs/rubocop"
+endif
 
 " vim-test configuration
 map <Leader>T :call TestStrategyToggle()<cr>

@@ -1,69 +1,69 @@
 [submodule "nvim/bundle/vim-surround"]
-	path = neovim/.nvim/bundle/vim-surround
+	path = neovim/.config/nvim/bundle/vim-surround
 	url = git@github.com:tpope/vim-surround
 [submodule "nvim/bundle/vim-fugitive"]
-	path = neovim/.nvim/bundle/vim-fugitive
+	path = neovim/.config/nvim/bundle/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive
 [submodule "nvim/bundle/vim-haml"]
-	path = neovim/.nvim/bundle/vim-haml
+	path = neovim/.config/nvim/bundle/vim-haml
 	url = git@github.com:tpope/vim-haml
 [submodule "nvim/bundle/vim-coffee-script"]
-	path = neovim/.nvim/bundle/vim-coffee-script
+	path = neovim/.config/nvim/bundle/vim-coffee-script
 	url = git@github.com:kchmck/vim-coffee-script
 [submodule "nvim/bundle/vim-ruby"]
-	path = neovim/.nvim/bundle/vim-ruby
+	path = neovim/.config/nvim/bundle/vim-ruby
 	url = git@github.com:vim-ruby/vim-ruby
 [submodule "nvim/bundle/vim-unimpaired"]
-	path = neovim/.nvim/bundle/vim-unimpaired
+	path = neovim/.config/nvim/bundle/vim-unimpaired
 	url = git@github.com:tpope/vim-unimpaired
 [submodule "nvim/bundle/vim-endwise"]
-	path = neovim/.nvim/bundle/vim-endwise
+	path = neovim/.config/nvim/bundle/vim-endwise
 	url = git@github.com:tpope/vim-endwise
 [submodule "nvim/bundle/vim-rails"]
-	path = neovim/.nvim/bundle/vim-rails
+	path = neovim/.config/nvim/bundle/vim-rails
 	url = git@github.com:tpope/vim-rails
 [submodule "nvim/bundle/vim-commentary"]
-	path = neovim/.nvim/bundle/vim-commentary
+	path = neovim/.config/nvim/bundle/vim-commentary
 	url = git@github.com:tpope/vim-commentary
 [submodule "nvim/bundle/vim-markdown"]
-	path = neovim/.nvim/bundle/vim-markdown
+	path = neovim/.config/nvim/bundle/vim-markdown
 	url = git@github.com:tpope/vim-markdown
 [submodule "nvim/bundle/ctrlp.vim"]
-	path = neovim/.nvim/bundle/ctrlp.vim
+	path = neovim/.config/nvim/bundle/ctrlp.vim
 	url = git@github.com:kien/ctrlp.vim
 [submodule "nvim/bundle/vim-elixir"]
-	path = neovim/.nvim/bundle/vim-elixir
+	path = neovim/.config/nvim/bundle/vim-elixir
 	url = git@github.com:elixir-lang/vim-elixir
 [submodule "nvim/bundle/vim-javascript-syntax"]
-	path = neovim/.nvim/bundle/vim-javascript-syntax
+	path = neovim/.config/nvim/bundle/vim-javascript-syntax
 	url = git@github.com:jelera/vim-javascript-syntax
 [submodule "nvim/bundle/vim-spacejam"]
-	path = neovim/.nvim/bundle/vim-spacejam
+	path = neovim/.config/nvim/bundle/vim-spacejam
 	url = git@github.com:rondale-sc/vim-spacejam
 [submodule "nvim/bundle/vim-airline"]
-	path = neovim/.nvim/bundle/vim-airline
+	path = neovim/.config/nvim/bundle/vim-airline
 	url = git@github.com:bling/vim-airline
 [submodule "nvim/bundle/vim-eunuch"]
-	path = neovim/.nvim/bundle/vim-eunuch
+	path = neovim/.config/nvim/bundle/vim-eunuch
 	url = git@github.com:tpope/vim-eunuch
 [submodule "nvim/bundle/vim-rspec"]
-	path = neovim/.nvim/bundle/vim-rspec
+	path = neovim/.config/nvim/bundle/vim-rspec
 	url = git@github.com:glanotte/vim-rspec
 [submodule "nvim/bundle/tslime.vim"]
-	path = neovim/.nvim/bundle/tslime.vim
+	path = neovim/.config/nvim/bundle/tslime.vim
 	url = git@github.com:jgdavey/tslime.vim
 [submodule "nvim/bundle/vim-test"]
-	path = neovim/.nvim/bundle/vim-test
+	path = neovim/.config/nvim/bundle/vim-test
 	url = git@github.com:janko-m/vim-test.git
 [submodule "nvim/bundle/ale"]
-	path = neovim/.nvim/bundle/ale
+	path = neovim/.config/nvim/bundle/ale
 	url = git@github.com:w0rp/ale.git
 [submodule "nvim/bundle/deoplete.nvim"]
-	path = neovim/.nvim/bundle/deoplete.nvim
+	path = neovim/.config/nvim/bundle/deoplete.nvim
 	url = git@github.com:Shougo/deoplete.nvim.git
 [submodule "nvim/bundle/deoplete-ruby"]
-	path = neovim/.nvim/bundle/deoplete-ruby
+	path = neovim/.config/nvim/bundle/deoplete-ruby
 	url = git@github.com:fishbullet/deoplete-ruby.git
 [submodule "neovim/.nvim/bundle/rainbow_parentheses.vim"]
-	path = neovim/.nvim/bundle/rainbow_parentheses.vim
+	path = neovim/.config/nvim/bundle/rainbow_parentheses.vim
 	url = git@github.com:kien/rainbow_parentheses.vim.git

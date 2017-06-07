@@ -13,17 +13,16 @@ I have run out of people to thank for this, but here is a non-exhaustive list:
 * Gary Bernhardt - Many of my hacks where inspired from his screencasts
 
 
-Installation
+Usage
 ------------
 
-    git clone git://github.com/glanotte/dotfiles ~/.dotfiles
-    cd ~/.dotfiles
-    rake install
+    This leverages [GNU Stow](https://www.gnu.org/software/stow/) for managing the configuration files
 
 Prerequisites
 -------------
 
   @tpope's Pathogen: https://github.com/tpope/vim-pathogen
+  GNU Stow: https://www.gnu.org/software/stow/
 
 Troubleshooting
 ---------------

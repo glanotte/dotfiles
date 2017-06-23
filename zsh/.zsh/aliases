@@ -69,3 +69,5 @@ alias sicp="racket -i -p neil/sicp -l xrepl"
 
 alias k="kubectl"
 alias kcd='kubectl config set-context $(kubectl config current-context) --namespace '
+alias mkstart='minikube start --vm-driver xhyve'
+alias kcreate='kubectl create -f'

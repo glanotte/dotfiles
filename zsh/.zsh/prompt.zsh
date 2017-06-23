@@ -69,5 +69,5 @@ machine_prefix(){
     echo ""
   fi
 }
-export PROMPT=$'$(machine_prefix)$(git_status)%{\e[0;%(?.32.31)m%}✝%{\e[0m%} '
+export PROMPT=$'$(machine_prefix)$(git_status)%{\e[0;%(?.32.31)m%}⟹ %{\e[0m%} '
 export RPROMPT=$'%{\e[0;90m%}$(project_pwd)${PR_YELLOW}$(rvm_info)$(git_prompt_info)%{\e[0m%}'

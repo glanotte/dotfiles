@@ -15,7 +15,7 @@ function pair_info {
 function git_prompt_info {
   local ref=$(git symbolic-ref HEAD 2> /dev/null)
   if [[ -n $ref ]]; then
-    echo "%{$reset_color%}/${PR_BLUE}${ref#refs/heads/}"
+    echo " ${PR_YELLOW} %{$reset_color%}${PR_BLUE}${ref#refs/heads/}"
   fi
 }
 
@@ -57,11 +57,6 @@ project_pwd() {
   echo $PWD | sed -e "s/\/Users\/$USER/~/" -e "s/projects\/\([^\/]*\)/p\/\\1/" -e "s/code\/\([^\/]*\)/c\/\\1/"
 }
 
-rvm_info() {
-  # shortens the rvm prompt output
-  echo " $($rvm_bin_path/rvm-prompt)" | sed -e "s/ruby-\(.*\)-p[^@]*/m\\1/" -e "s/jruby-\(.*\)/j\\1/"
-}
-
 machine_prefix(){
   if [ -n "$SSH_CLIENT" ]; then
     echo "${PR_MAGENTA}%n${reset_color}/${PR_GREEN}%m"
@@ -70,4 +65,4 @@ machine_prefix(){
   fi
 }
 export PROMPT=$'$(machine_prefix)$(git_status)%{\e[0;%(?.32.31)m%}⟹ %{\e[0m%} '
-export RPROMPT=$'%{\e[0;90m%}$(project_pwd)${PR_YELLOW}$(rvm_info)$(git_prompt_info)%{\e[0m%}'
+export RPROMPT=$'%{\e[0;90m%}$(project_pwd)${PR_YELLOW}$(git_prompt_info)%{\e[0m%}'

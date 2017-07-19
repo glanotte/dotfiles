@@ -18,3 +18,4 @@ elif [[ -s "/usr/local/rvm/scripts/rvm" ]]; then
   . "/usr/local/rvm/scripts/rvm"
   PATH=$PATH:/usr/local/rvm/bin
 fi
+export PATH="/usr/local/opt/mariadb@10.1/bin:$PATH"

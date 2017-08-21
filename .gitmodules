@@ -67,3 +67,6 @@
 [submodule "neovim/.nvim/bundle/rainbow_parentheses.vim"]
 	path = neovim/.config/nvim/bundle/rainbow_parentheses.vim
 	url = git@github.com:kien/rainbow_parentheses.vim.git
+[submodule "neovim/.config/nvim/bundle/vim-plugin-ansiesc"]
+	path = neovim/.config/nvim/bundle/vim-plugin-ansiesc
+	url = git@github.com:powerman/vim-plugin-AnsiEsc.git

@@ -230,6 +230,9 @@ au Syntax * RainbowParenthesesLoadBraces
 
 let test#strategy = "tslime"
 
+" vim-mix-format configuration
+let g:mix_format_on_save = 1
+
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Toggle the test strategy
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

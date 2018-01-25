@@ -76,3 +76,9 @@
 [submodule "neovim/.config/nvim/bundle/vim-gitgutter"]
 	path = neovim/.config/nvim/bundle/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
+[submodule "neovim/.config/nvim/bundle/vim-mix-format"]
+	path = neovim/.config/nvim/bundle/vim-mix-format
+	url = git@github.com:mhinz/vim-mix-format.git
+[submodule "neovim/.config/nvim/bundle/elm-vim"]
+	path = neovim/.config/nvim/bundle/elm-vim
+	url = git@github.com:ElmCast/elm-vim.git

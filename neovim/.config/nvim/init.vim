@@ -34,14 +34,15 @@ set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
 set wildignore=*.dll,*.o,*.obj,*.bak,*.pyc,*.swp " ignore these"
 
 " Configure airline
+let g:airline_theme='solarized'
 let g:airline_powerline_fonts = 1
 let g:rails_statusline=1
 set laststatus=2
 set encoding=utf-8
 
 " Color for non-gui vim
-colorscheme geoff_gui
-
+colorscheme solarized
+set background=light
 " Set the title string to display the full path
 set title
 set titlestring=VIM:\ %-25.55F\ %a%r%m titlelen=70

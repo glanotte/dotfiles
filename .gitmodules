@@ -82,3 +82,12 @@
 [submodule "neovim/.config/nvim/bundle/elm-vim"]
 	path = neovim/.config/nvim/bundle/elm-vim
 	url = git@github.com:ElmCast/elm-vim.git
+[submodule "neovim/.config/nvim/bundle/taskpaper.vim"]
+	path = neovim/.config/nvim/bundle/taskpaper.vim
+	url = git@github.com:davidoc/taskpaper.vim.git
+[submodule "neovim/.config/nvim/bundle/vim-colors-solarized"]
+	path = neovim/.config/nvim/bundle/vim-colors-solarized
+	url = git://github.com/altercation/vim-colors-solarized.git
+[submodule "neovim/.config/nvim/bundle/vim-airline-themes"]
+	path = neovim/.config/nvim/bundle/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git

@@ -42,7 +42,7 @@ set encoding=utf-8
 
 " Color for non-gui vim
 colorscheme solarized
-set background=light
+set background=dark
 " Set the title string to display the full path
 set title
 set titlestring=VIM:\ %-25.55F\ %a%r%m titlelen=70

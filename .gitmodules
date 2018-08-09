@@ -4,12 +4,6 @@
 [submodule "nvim/bundle/vim-fugitive"]
 	path = neovim/.config/nvim/bundle/vim-fugitive
 	url = git@github.com:tpope/vim-fugitive
-[submodule "nvim/bundle/vim-haml"]
-	path = neovim/.config/nvim/bundle/vim-haml
-	url = git@github.com:tpope/vim-haml
-[submodule "nvim/bundle/vim-coffee-script"]
-	path = neovim/.config/nvim/bundle/vim-coffee-script
-	url = git@github.com:kchmck/vim-coffee-script
 [submodule "nvim/bundle/vim-ruby"]
 	path = neovim/.config/nvim/bundle/vim-ruby
 	url = git@github.com:vim-ruby/vim-ruby
@@ -43,9 +37,6 @@
 [submodule "nvim/bundle/vim-airline"]
 	path = neovim/.config/nvim/bundle/vim-airline
 	url = git@github.com:bling/vim-airline
-[submodule "nvim/bundle/vim-eunuch"]
-	path = neovim/.config/nvim/bundle/vim-eunuch
-	url = git@github.com:tpope/vim-eunuch
 [submodule "nvim/bundle/vim-rspec"]
 	path = neovim/.config/nvim/bundle/vim-rspec
 	url = git@github.com:glanotte/vim-rspec
@@ -67,12 +58,6 @@
 [submodule "neovim/.nvim/bundle/rainbow_parentheses.vim"]
 	path = neovim/.config/nvim/bundle/rainbow_parentheses.vim
 	url = git@github.com:kien/rainbow_parentheses.vim.git
-[submodule "neovim/.config/nvim/bundle/vim-plugin-ansiesc"]
-	path = neovim/.config/nvim/bundle/vim-plugin-ansiesc
-	url = git@github.com:powerman/vim-plugin-AnsiEsc.git
-[submodule "neovim/.config/nvim/bundle/vim-obsession"]
-	path = neovim/.config/nvim/bundle/vim-obsession
-	url = git://github.com/tpope/vim-obsession.git
 [submodule "neovim/.config/nvim/bundle/vim-gitgutter"]
 	path = neovim/.config/nvim/bundle/vim-gitgutter
 	url = git://github.com/airblade/vim-gitgutter.git
@@ -82,9 +67,6 @@
 [submodule "neovim/.config/nvim/bundle/elm-vim"]
 	path = neovim/.config/nvim/bundle/elm-vim
 	url = git@github.com:ElmCast/elm-vim.git
-[submodule "neovim/.config/nvim/bundle/taskpaper.vim"]
-	path = neovim/.config/nvim/bundle/taskpaper.vim
-	url = git@github.com:davidoc/taskpaper.vim.git
 [submodule "neovim/.config/nvim/bundle/vim-colors-solarized"]
 	path = neovim/.config/nvim/bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git

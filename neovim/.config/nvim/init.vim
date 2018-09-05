@@ -103,9 +103,7 @@ au BufRead,BufNewFile *.scss set filetype=scss
 au BufNewFile,BufRead *.hbs.erb,*.handlebars.erb,*.hb.erb set ft=handlebars.eruby
 
 " Relative Line numbers, requires vim 7.3+
-set rnu
-autocmd InsertEnter * :set number
-autocmd InsertLeave * :set rnu
+set number relativenumber
 
 set hlsearch
 

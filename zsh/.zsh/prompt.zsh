@@ -98,4 +98,4 @@ machine_prefix(){
   fi
 }
 export PROMPT=$'$(machine_prefix)$(git_status)%{\e[0;%(?.32.31)m%}λ %{\e[0m%}'
-export RPROMPT=$'%{\e[0;90m%}$(truncated_pwd 2)${PR_YELLOW}$(git_prompt_info)%{\e[0m%}'
+export RPROMPT=$'%{\e[0;90m%}${PR_GREEN}$(truncated_pwd 2)${PR_YELLOW}$(git_prompt_info)%{\e[0m%}'

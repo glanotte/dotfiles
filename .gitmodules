@@ -79,3 +79,6 @@
 [submodule "neovim/.config/nvim/bundle/vimwiki"]
 	path = neovim/.config/nvim/bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
+[submodule "neovim/.config/nvim/bundle/idris-vim"]
+	path = neovim/.config/nvim/bundle/idris-vim
+	url = git@github.com:idris-hackers/idris-vim.git

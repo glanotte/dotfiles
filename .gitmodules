@@ -76,3 +76,6 @@
 [submodule "neovim/.config/nvim/bundle/vim-eunuch"]
 	path = neovim/.config/nvim/bundle/vim-eunuch
 	url = git@github.com:tpope/vim-eunuch.git
+[submodule "neovim/.config/nvim/bundle/vimwiki"]
+	path = neovim/.config/nvim/bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git

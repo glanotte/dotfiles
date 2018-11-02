@@ -219,6 +219,8 @@ nmap <silent> <leader>a :TestSuite<CR>
 nmap <silent> <leader>l :TestLast<CR>
 nmap <silent> <leader>g :TestVisit<CR>
 
+" vim-wiki configuration
+let g:vimwiki_folding = 'list'
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Configure Rainbow Parenthesis
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

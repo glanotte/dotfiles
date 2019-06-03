@@ -3,3 +3,6 @@
 .netrwhist
 .mono
 .gitconfiglocal
+neovim/.config/exercism
+neovim/.config/configstore
+neovim/.config/wireshark

@@ -82,3 +82,6 @@
 [submodule "neovim/.config/nvim/bundle/idris-vim"]
 	path = neovim/.config/nvim/bundle/idris-vim
 	url = git@github.com:idris-hackers/idris-vim.git
+[submodule "neovim/.config/nvim/bundle/vim-go"]
+	path = neovim/.config/nvim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git

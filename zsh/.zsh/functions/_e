@@ -1,2 +1,2 @@
 #compdef e
-_files -W ~/elixir -/
+_files -W ~/Exercism -/

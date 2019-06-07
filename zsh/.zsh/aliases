@@ -71,3 +71,6 @@ alias k="kubectl"
 alias kcd='kubectl config set-context $(kubectl config current-context) --namespace '
 alias mkstart='minikube start --vm-driver xhyve'
 alias kcreate='kubectl create -f'
+
+# docker
+alias dc="docker-compose"

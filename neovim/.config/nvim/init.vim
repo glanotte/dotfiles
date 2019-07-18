@@ -90,6 +90,7 @@ let Tlist_Use_Right_Window = 1
 
 " Code Folding
 set fdm=syntax
+let javascript_fold=1
 set fdc=2
 " set the level high enough that nothing should be folded initially
 set fdl=1

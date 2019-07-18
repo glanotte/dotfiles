@@ -88,3 +88,9 @@
 [submodule "neovim/.config/nvim/bundle/deoplete-elm"]
 	path = neovim/.config/nvim/bundle/deoplete-elm
 	url = git@github.com:pbogut/deoplete-elm.git
+[submodule "neovim/.config/nvim/bundle/vim-vue.git"]
+	path = neovim/.config/nvim/bundle/vim-vue.git
+	url = https://github.com/posva/vim-vue.git
+[submodule "neovim/.config/nvim/bundle/vim-javascript"]
+	path = neovim/.config/nvim/bundle/vim-javascript
+	url = git@github.com:pangloss/vim-javascript.git

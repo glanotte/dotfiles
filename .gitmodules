@@ -94,3 +94,9 @@
 [submodule "neovim/.config/nvim/bundle/vim-javascript"]
 	path = neovim/.config/nvim/bundle/vim-javascript
 	url = git@github.com:pangloss/vim-javascript.git
+[submodule "neovim/.config/nvim/bundle/kotlin-vim"]
+	path = neovim/.config/nvim/bundle/kotlin-vim
+	url = git@github.com:udalov/kotlin-vim.git
+[submodule "neovim/.config/nvim/bundle/nvim-typescript"]
+	path = neovim/.config/nvim/bundle/nvim-typescript
+	url = git@github.com:mhartington/nvim-typescript.git

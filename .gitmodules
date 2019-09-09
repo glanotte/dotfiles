@@ -100,3 +100,9 @@
 [submodule "neovim/.config/nvim/bundle/nvim-typescript"]
 	path = neovim/.config/nvim/bundle/nvim-typescript
 	url = git@github.com:mhartington/nvim-typescript.git
+[submodule "neovim/.config/nvim/bundle/vim-prettier"]
+	path = neovim/.config/nvim/bundle/vim-prettier
+	url = git@github.com:prettier/vim-prettier.git
+[submodule "neovim/.config/nvim/bundle/yats.vim"]
+	path = neovim/.config/nvim/bundle/yats.vim
+	url = git@github.com:HerringtonDarkholme/yats.vim.git

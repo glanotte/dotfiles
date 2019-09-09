@@ -320,4 +320,3 @@ function! ShowRoutes()
 " Delete empty trailing line
   :normal dd
 endfunction
-

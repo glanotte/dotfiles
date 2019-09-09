@@ -78,6 +78,7 @@ set laststatus=2
 set encoding=utf-8
 
 " Color for non-gui vim
+set termguicolors
 colorscheme solarized8
 set background=dark
 " Set the title string to display the full path

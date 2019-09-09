@@ -1,8 +1,45 @@
 set shell=/bin/sh
 
-" configure pathogen
-call pathogen#infect()
+call plug#begin('~/.local/share/nvim/plugged')
+Plug 'HerringtonDarkholme/yats.vim'
+Plug 'mhartington/nvim-typescript', {'do': './install.sh'}
+Plug 'Shougo/deoplete.nvim', {'do': ':UpdateRemotePlugins' }
+Plug 'Shougo/denite.nvim'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-fugitive'
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-unimpaired'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-commentary'
+Plug 'tpope/vim-markdown'
+Plug 'kien/ctrlp.vim'
+Plug 'elixir-lang/vim-elixir'
+Plug 'airblade/vim-gitgutter'
+Plug 'lifepillar/vim-solarized8'
+Plug 'ElmCast/elm-vim'
+Plug 'bling/vim-airline'
+Plug 'fishbullet/deoplete-ruby'
+Plug 'glanotte/vim-rspec'
+Plug 'idris-hackers/idris-vim'
+Plug 'janko-m/vim-test'
+Plug 'jelera/vim-javascript-syntax'
+Plug 'jgdavey/tslime.vim'
+Plug 'kien/rainbow_parentheses.vim'
+Plug 'mhinz/vim-mix-format'
+Plug 'pangloss/vim-javascript'
+Plug 'pbogut/deoplete-elm'
+Plug 'prettier/vim-prettier'
+Plug 'rondale-sc/vim-spacejam'
+Plug 'tpope/vim-eunuch'
+Plug 'udalov/kotlin-vim'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'w0rp/ale'
+Plug 'fatih/vim-go'
+Plug 'posva/vim-vue'
+Plug 'vimwiki/vimwiki'
 
+call plug#end()
 "Set leader key
 let mapleader = " "
 
@@ -41,7 +78,7 @@ set laststatus=2
 set encoding=utf-8
 
 " Color for non-gui vim
-colorscheme solarized
+colorscheme solarized8
 set background=dark
 " Set the title string to display the full path
 set title

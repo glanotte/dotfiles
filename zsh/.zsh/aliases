@@ -49,7 +49,7 @@ alias devlog='tail -f log/development.log'
 alias %=' '
 
 #tmux
-alias tmux="TERM=screen-256color-bce tmux"
+# alias tmux="TERM=screen-256color-bce tmux"
 
 #bundler
 alias be="bundle exec"

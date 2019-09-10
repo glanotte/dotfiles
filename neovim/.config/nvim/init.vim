@@ -78,7 +78,11 @@ set laststatus=2
 set encoding=utf-8
 
 " Color for non-gui vim
-set termguicolors
+let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
+let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
+if (has("termguicolors"))
+  set termguicolors
+endif
 colorscheme solarized8
 set background=dark
 " Set the title string to display the full path

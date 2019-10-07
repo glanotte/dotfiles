@@ -38,6 +38,7 @@ Plug 'dense-analysis/ale'
 Plug 'fatih/vim-go'
 Plug 'posva/vim-vue'
 Plug 'vimwiki/vimwiki'
+Plug 'rhysd/vim-crystal'
 
 call plug#end()
 "Set leader key

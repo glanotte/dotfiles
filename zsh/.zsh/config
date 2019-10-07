@@ -44,3 +44,6 @@ bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char 
 
 export ERL_AFLAGS="-kernel shell_history enabled"
+
+# needed for crystal to find openssl
+export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/opt/openssl/lib/pkgconfig

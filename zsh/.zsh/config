@@ -43,6 +43,9 @@ bindkey '^[[3~' delete-char
 bindkey '^[^N' newtab
 bindkey '^?' backward-delete-char 
 
+# Enable vi mode
+bindkey -v
+
 export ERL_AFLAGS="-kernel shell_history enabled"
 
 # needed for crystal to find openssl

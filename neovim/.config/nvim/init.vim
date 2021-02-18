@@ -17,7 +17,6 @@ Plug 'kien/ctrlp.vim'
 Plug 'elixir-lang/vim-elixir'
 Plug 'airblade/vim-gitgutter'
 Plug 'lifepillar/vim-solarized8'
-Plug 'ElmCast/elm-vim'
 Plug 'bling/vim-airline'
 Plug 'fishbullet/deoplete-ruby'
 Plug 'glanotte/vim-rspec'
@@ -28,7 +27,6 @@ Plug 'jgdavey/tslime.vim'
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'mhinz/vim-mix-format'
 Plug 'pangloss/vim-javascript'
-Plug 'pbogut/deoplete-elm'
 Plug 'prettier/vim-prettier'
 Plug 'rondale-sc/vim-spacejam'
 Plug 'tpope/vim-eunuch'
@@ -39,13 +37,19 @@ Plug 'fatih/vim-go'
 Plug 'posva/vim-vue'
 Plug 'vimwiki/vimwiki'
 Plug 'rhysd/vim-crystal'
+Plug 'isaacsloan/vim-slang'
+Plug 'jakwings/vim-pony'
+Plug 'wakatime/vim-wakatime'
+Plug 'tpope/vim-projectionist'
+Plug 'slim-template/vim-slim'
 
 call plug#end()
 "Set leader key
 let mapleader = " "
 
-"home row escape
-inoremap fd <ESC>
+" disable modelines
+set nomodeline
+
 
 " shortcuts to adding notes
 map <leader>nn :sp ~/Dropbox/notes/programming_notes.txt<cr>
@@ -162,7 +166,7 @@ let g:AutoCloseExpandEnterOn = ""
 "Load custom configuration
 let my_home = expand("$HOME/")
 if filereadable(my_home . '.vimrc.local')
-	source ~/.vimrc.local
+  source ~/.vimrc.local
 endif
 
 " Quick jumping between splits
@@ -278,9 +282,6 @@ let test#strategy = "tslime"
 
 " vim-mix-format configuration
 let g:mix_format_on_save = 1
-
-" elm-vim configuration
-let g:elm_format_autosave = 1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Toggle the test strategy

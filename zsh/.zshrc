@@ -11,11 +11,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 fpath=(/usr/local/share/zsh-completions $fpath)
 # use .localrc for settings specific to one system
 [[ -f ~/.localrc ]] && .  ~/.localrc
-if [[ -s "$HOME/.rvm/scripts/rvm" ]]; then
-  . "$HOME/.rvm/scripts/rvm"
-  PATH=$PATH:$HOME/.rvm/bin
-elif [[ -s "/usr/local/rvm/scripts/rvm" ]]; then
-  . "/usr/local/rvm/scripts/rvm"
-  PATH=$PATH:/usr/local/rvm/bin
-fi
 export PATH="/usr/local/opt/mariadb@10.1/bin:$PATH"
+
+. /usr/local/opt/asdf/asdf.sh

@@ -23,7 +23,7 @@ Plug 'glanotte/vim-rspec'
 Plug 'idris-hackers/idris-vim'
 Plug 'janko-m/vim-test'
 Plug 'jelera/vim-javascript-syntax'
-Plug 'jgdavey/tslime.vim'
+Plug 'jgdavey/tslime.vim', { 'branch': 'main' }
 Plug 'kien/rainbow_parentheses.vim'
 Plug 'mhinz/vim-mix-format'
 Plug 'pangloss/vim-javascript'

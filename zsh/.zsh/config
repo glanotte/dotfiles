@@ -52,4 +52,4 @@ export ERL_AFLAGS="-kernel shell_history enabled"
 export PKG_CONFIG_PATH=$PKG_CONFIG_PATH:/usr/local/opt/openssl/lib/pkgconfig
 
 # ASDF ruby build version
-ASDF_RUBY_BUILD_VERSION=master
+# ASDF_RUBY_BUILD_VERSION=master

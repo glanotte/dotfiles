@@ -14,3 +14,6 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 export PATH="/usr/local/opt/mariadb@10.1/bin:$PATH"
 
 . /usr/local/opt/asdf/asdf.sh
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+

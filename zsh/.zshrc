@@ -13,7 +13,8 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 [[ -f ~/.localrc ]] && .  ~/.localrc
 export PATH="/usr/local/opt/mariadb@10.1/bin:$PATH"
 
-. /usr/local/opt/asdf/asdf.sh
+. /usr/local/opt/asdf/libexec/asdf.sh
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
 

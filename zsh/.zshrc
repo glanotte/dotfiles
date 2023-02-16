@@ -18,3 +18,5 @@ export PATH="/usr/local/opt/mariadb@10.1/bin:$PATH"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 
+
+source /Users/glanotte/.docker/init-zsh.sh || true # Added by Docker Desktop

@@ -74,6 +74,12 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["Comment.nvim"] = {
+    config = { "\27LJ\2\ns\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\ropleader\1\0\1\tline\a\\\\\ftoggler\1\0\0\1\0\1\tline\a\\\\\nsetup\fComment\frequire\0" },
+    loaded = true,
+    path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/Comment.nvim",
+    url = "https://github.com/numToStr/Comment.nvim"
+  },
   LuaSnip = {
     loaded = true,
     path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/LuaSnip",
@@ -190,6 +196,11 @@ _G.packer_plugins = {
     path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
   },
+  ["tslime.vim"] = {
+    loaded = true,
+    path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/tslime.vim",
+    url = "https://github.com/jgdavey/tslime.vim"
+  },
   undotree = {
     loaded = true,
     path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/undotree",
@@ -204,10 +215,24 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
+  },
+  ["vim-rails"] = {
+    loaded = true,
+    path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/vim-rails",
+    url = "https://github.com/tpope/vim-rails"
+  },
+  ["vim-test"] = {
+    loaded = true,
+    path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/vim-test",
+    url = "https://github.com/janko-m/vim-test"
   }
 }
 
 time([[Defining packer_plugins]], false)
+-- Config for: Comment.nvim
+time([[Config for Comment.nvim]], true)
+try_loadstring("\27LJ\2\ns\0\0\4\0\b\0\v6\0\0\0'\2\1\0B\0\2\0029\0\2\0005\2\4\0005\3\3\0=\3\5\0025\3\6\0=\3\a\2B\0\2\1K\0\1\0\ropleader\1\0\1\tline\a\\\\\ftoggler\1\0\0\1\0\1\tline\a\\\\\nsetup\fComment\frequire\0", "config", "Comment.nvim")
+time([[Config for Comment.nvim]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

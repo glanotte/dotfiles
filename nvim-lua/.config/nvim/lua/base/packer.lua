@@ -16,10 +16,26 @@ return require('packer').startup(function(use)
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
 	use('tpope/vim-eunuch')
+	use('tpope/vim-rails')
   use('github/copilot.vim')
+  use('janko-m/vim-test')
+  use('jgdavey/tslime.vim')
 	use {
 		'nvim-lualine/lualine.nvim',
 		requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
+  use {
+    'numToStr/Comment.nvim',
+    config = function()
+      require('Comment').setup({
+        toggler = {
+          line = "\\\\",
+        },
+        opleader = {
+          line = "\\\\",
+        }
+      })
+    end
   }
   use {
     'VonHeikemen/lsp-zero.nvim',

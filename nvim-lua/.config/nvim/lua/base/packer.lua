@@ -8,10 +8,11 @@ return require('packer').startup(function(use)
 		requires = { {'nvim-lua/plenary.nvim'} }
 	})
 
-  use('Shatur/neovim-ayu')
+  use('luisiacc/gruvbox-baby')
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   use 'nvim-treesitter/nvim-treesitter-context'
 	use('nvim-treesitter/playground')
+  use('RRethy/nvim-treesitter-endwise')
 	use('theprimeagen/harpoon')
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')

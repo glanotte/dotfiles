@@ -3,7 +3,7 @@ require('lualine').setup {
     icons_enabled = true,
     section_separators = "",
     component_separators = "",
-    theme = 'ayu',
+    theme = 'gruvbox-baby',
     sections = {
       lualine_a = { "mode" },
       lualine_b = { "branch", "diff", "diagnostics" },

@@ -120,6 +120,11 @@ _G.packer_plugins = {
     path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gruvbox-baby"] = {
+    loaded = true,
+    path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/gruvbox-baby",
+    url = "https://github.com/luisiacc/gruvbox-baby"
+  },
   harpoon = {
     loaded = true,
     path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/harpoon",
@@ -145,11 +150,6 @@ _G.packer_plugins = {
     path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["neovim-ayu"] = {
-    loaded = true,
-    path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/neovim-ayu",
-    url = "https://github.com/Shatur/neovim-ayu"
-  },
   ["nvim-cmp"] = {
     loaded = true,
     path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/nvim-cmp",
@@ -169,6 +169,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/nvim-treesitter-context",
     url = "https://github.com/nvim-treesitter/nvim-treesitter-context"
+  },
+  ["nvim-treesitter-endwise"] = {
+    loaded = true,
+    path = "/Users/glanotte/.local/share/nvim/site/pack/packer/start/nvim-treesitter-endwise",
+    url = "https://github.com/RRethy/nvim-treesitter-endwise"
   },
   ["nvim-web-devicons"] = {
     loaded = false,

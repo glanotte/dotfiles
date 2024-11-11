@@ -27,11 +27,13 @@
   fa = fetch --all
   pom = push origin master
   pushf = push --force-with-lease
+  changelog = log --pretty="%s"
   branches = for-each-ref --sort=-committerdate --format=\"%(color:blue)%(authordate:relative)\t%(color:red)%(authorname)\t%(color:white)%(color:bold)%(refname:short)\" refs/remotes
   tidy = ! "git fetch --all && git branch --format=\"%(refname:short) %(upstream:track)\" | awk '$2 == \"[gone]\" {print $1}' | xargs git branch -D"
 
 [format]
   pretty=format:%C(yellow)%h%Creset -%C(red)%d%Creset %s %Cgreen(%ar) %C(bold blue)<%ae>%Creset
+  changes=format:%s
 
 [merge]
   tool = nvimdiff

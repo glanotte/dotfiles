@@ -78,10 +78,8 @@ alias dc="docker-compose"
 
 
 # teleport
+alias sw-eu-login='tsh login --proxy proxy-ovh.signalwire.cloud'
 alias sw-prod-login='tsh login --proxy=proxy.signalwire.cloud:443 proxy.signalwire.cloud'
 alias sw-staging-login='tsh login --proxy=proxy.signalwire.cloud:443 teleport-stg-gcp.swire.io'
-alias sw-stage='tsh ssh glanotte@static-190-102-98-201'
-alias sw-prime-master='tsh ssh glanotte@v201011-prod-prime-manager-1'
-alias sw-prime-console='tsh ssh glanotte@v201011-prod-prime-console-1'
-alias sw-billing-master='tsh ssh glanotte@v201011-prod-billing-manager-1'
-alias sw-billing-console='tsh ssh glanotte@v201011-prod-billing-console-1'
+alias cp-sw-billing-console='tsh scp glanotte@v201011-prod-billing-console-sfo3-01'
+alias sw-eu-console='tsh ssh glanotte@prod-prime-manager-gra9-01'
